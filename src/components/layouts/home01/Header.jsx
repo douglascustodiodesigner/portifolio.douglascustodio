@@ -11,17 +11,13 @@ class Header extends Component {
     }
     render() {
         return (
-            <header id="header" className="header header-style4 has-menu-model">
+            <header id="header" className="header header-style1">
                 <div className="container">
                     <div className="flex-header d-flex justify-content-between align-items-center">
-                        <div id="logo" className="logo">
-                            <Link to="/" onClick={() => {window.location.href="/"}} title="Logo"><img src="images/logo/02.png" alt="images" data-width={122} data-height={34} data-retina="images/logo/02@2x.png" /></Link>
-                        </div>
-                        <div dir="rtl" className="btn-menu mobile-header__menu-button">
-                            <div className="line line-1" />
-                            <div className="line line-2" />
-                            <div className="line line-3" />
-                            <div className="line line-4" />
+                        <div className="socials-list-hd s1 hv1">
+                            <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
+                            <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
+                            <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
                         </div>
                         <div className="content-menu d-lg-flex">
                             <div className="nav-wrap">
@@ -32,7 +28,7 @@ class Header extends Component {
                                                 {
                                                     links.map(data => (
                                                         <li key={data.id}>
-                                                            <Link to={data.tolink} onClick={() => {window.location.href=data.tolink}} className={data.id === 4 ? "active" : ""}>
+                                                            <Link to={data.tolink} onClick={() => {window.location.href=data.tolink}} className={data.id === 1 ? "active" : ""}>
                                                                 {data.namelink}
                                                             </Link>
                                                         </li>
@@ -57,14 +53,19 @@ class Header extends Component {
                                                     ))
                                                 }
                                             </ul>
-                                        </li>
+                                        </li> 
                                     </ul>
                                 </nav>
                             </div>
+                            <div className="hire-me-s1 btn-general btn-hv-common d-lg-flex align-items-center">
+                                <Link to="#" className="btn-inner border-corner2 lt-sp08 text-white">Hire Me</Link>
+                            </div>
                         </div>
-                        <div className="socials-list-hd s3 hv2">
-                            <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
-                            <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
+                        <div dir="rtl" className="btn-menu mobile-header__menu-button">
+                            <div className="line line-1" />
+                            <div className="line line-2" />
+                            <div className="line line-3" />
+                            <div className="line line-4" />
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {About, Banner, CaseStudy, Education, Footer, Header, Project, Specilizing, Testimonial} from '../layouts/home/index';
+import {About, Banner, CaseStudy, Education, Footer, Header, Project, Specilizing, Testimonial} from '../layouts/home04/index';
 
-class Home extends Component {
+class Home04 extends Component {
     render() {
         return (
             <div className="counter-scroll background-wrap-home4 fixed counter-scroll home4 has-one-page">               
@@ -24,4 +24,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default Home04;
