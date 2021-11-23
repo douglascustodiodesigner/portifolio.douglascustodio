@@ -2239,7 +2239,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     background-size: cover;
 }
 .footer-s1 {
-    background-image: url('../images/footer/02.jpg');
+    background-image: url('../images/footer/04.jpg');
 }
 .footer-s1-home1 {
     background-image: url('../images/footer/bg-footer-home1.png');
@@ -2248,7 +2248,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     background-repeat: no-repeat;
 }
 .footer-s2 {
-    background-image: url('../images/footer/03.jpg');
+    background-image: url('../images/footer/04.jpg');
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -2276,7 +2276,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     padding: 189px 0 205px 0;
 }
 .footer-widget-s3.border-bottom-s1 {
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid #000000;
 }
 .footer-widget-s3.border-bottom-s2 {
     border-bottom: 1px solid #212322
