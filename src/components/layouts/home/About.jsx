@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import { Icon } from '../home02/about/index';
+import { Icon } from '../home/about/index';
 import { NumberCount } from './about/index';
 
 class About extends Component {
