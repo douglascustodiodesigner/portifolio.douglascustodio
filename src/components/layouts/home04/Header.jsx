@@ -51,7 +51,6 @@ class Header extends Component {
                         <div className="socials-list-hd s3 hv2">
                             <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
                             <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
-                            <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
                         </div>
                     </div>
                 </div>
