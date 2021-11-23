@@ -7,11 +7,10 @@ class Footer extends Component {
                 <footer id="footer" className="footer footer-s4">
                     <div className="container">
                         <div id="footer-widget" className="footer-widget-s3 border-bottom-s2 position-relative">
-                            <h3 className="widget-title larger lt-sp06 text-white text-center">Let’s try me!</h3>
+                            <h3 className="widget-title larger lt-sp06 text-white text-center">Vamos Entre em contato</h3>
                             <div className="site-list site-list-center text-center">
                                 <Link to="#" className="bg-s1"><i className="fa fa-twitter" aria-hidden="true" /></Link>
                                 <Link to="#" className="bg-s2"><i className="fa fa-behance" aria-hidden="true" /></Link>
-                                <Link to="#" className="bg-s3"><span className="icon-dribble" /></Link>
                             </div>
                         </div>
                     </div>
@@ -20,7 +19,7 @@ class Footer extends Component {
                             <div className="row">
                                 <div className="col-lg-4">
                                     <div className="copyright lt-sp02">
-                                        © Roy Design, 2020 All rights reserved.
+                                        © Douglas Custodio, 2021 Todos Direitos Reservados.
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
@@ -34,7 +33,6 @@ class Footer extends Component {
                                 <div className="col-lg-2">
                                     <div className="socials-list color-s2">
                                         <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
-                                        <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
                                         <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
                                     </div>
                                 </div>

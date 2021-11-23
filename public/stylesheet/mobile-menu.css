@@ -228,7 +228,7 @@
 }
 .mobile-menu__close:active {
     color: #fff;
-    background-color: #5187d0;
+    background-color: #c50535;
 }
 .mobile-menu__close:focus {
     outline: none;

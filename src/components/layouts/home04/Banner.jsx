@@ -7,17 +7,15 @@ class Banner extends Component {
                 <div className="container">
                     <div className="content-text position-relative">
                         <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.3s">
-                            <div className="tag color-d1 lt-sp53 mg-b34">Product Designer</div>
+                            <div className="tag color-d1 lt-sp53 mg-b34">Design Gráfico</div>
                             <h1 className="cd-headline clip is-full-width title color-d11 mg-b41">
-                                <span>Hello, </span>
+                                <span>Ola!, </span>
                                 <span className="cd-words-wrapper color-d6">
-                                <b className="is-visible">I’m Perry!</b>
-                                <b>I’m Olivia!</b>
-                                <b>I’m Amelia!</b>
+                                <b className="is-visible">Me Chamo Douglas</b>
                                 </span>
                             </h1>
                             <p className="color-d13 lt-sp02 mg-b51">
-                                Hi, i m perry, professional ux designer with 4 years <br />of experience. Need any help?
+                                Sou Profissional de Design Gráfico Expecialiado<br />Identidade visual <br />e Web Designer 
                             </p>
                         </div>
                         <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.3s">

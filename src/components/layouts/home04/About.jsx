@@ -14,14 +14,11 @@ class About extends Component {
                 <div className="row position-relative">
                     <div className="col-lg-7 animate-element wow delay5 fadeInDown">
                         <div className="flat-title t2">
-                            <h4 className="sub-title mg-b22">About Me</h4>
-                            <h2 className="title-section color-d11 mg-b41">Hi, I am here to help your next project!</h2>
+                            <h4 className="sub-title mg-b22">Sobre eu</h4>
+                            <h2 className="title-section color-d11 mg-b41">Olá, estou aqui para ajudar no seu próximo projeto!</h2>
                             <div className="description">
                                 <p className="color-d13 lt-sp01">
-                                    Hi, if you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
-                                </p>
-                                <p className="color-d13 lt-sp01">
-                                    If you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
+                                Olá, se você precisa de um modelo PSD, página de destino ou design de site em um dia? então você pode me dizer, estou aqui para ajudá-lo. Posso criar qualquer tipo de template PSD. Verifique meu portfólio.
                                 </p>
                             </div>
                         </div>
@@ -29,8 +26,8 @@ class About extends Component {
                     <div className="fact">
                         <NumberCount />
                         <div className="btn-contact bg-s2 text-center">
-                            <h4 className="title color-d11">Get a project? Let’s talk.</h4>
-                            <Link to="#" className="email color-s2 color-d15">yourmail@email.com</Link>
+                            <h4 className="title color-d11">Precisando de um Designer? Vamos conversar.</h4>
+                            <Link to="contato@douglascustodio.com" className="email color-s2 color-d15">contato@douglascustodio.com</Link>
                         </div>
                     </div>
                 </div>
